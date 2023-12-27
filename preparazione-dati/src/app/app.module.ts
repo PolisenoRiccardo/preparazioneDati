@@ -3,11 +3,13 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { ContainerComponent } from './container/container.component';
+import { MachineComponent } from './machine/machine.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ContainerComponent
+    ContainerComponent,
+    MachineComponent
   ],
   imports: [
     BrowserModule
